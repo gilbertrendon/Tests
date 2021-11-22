@@ -20,4 +20,3 @@ Demonstrating usage of doctest
 -1.5
 
 >>> add2num(8, 'hello')
-

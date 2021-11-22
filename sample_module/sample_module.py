@@ -9,3 +9,6 @@ def mul(x, y):
     -56
     """
     return x * y
+
+def pow2num(x, y):
+    return x**y
