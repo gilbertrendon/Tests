@@ -1,7 +1,9 @@
+#from sample_module/sample_tests import add2num
+#from sample_module import sample_tests
+from sample_module.sample_module import add2num
 
-#from sample_module import add2num
-def add2num(x, y):
-     return x + y
+# def add2num(x, y):
+#      return x + y
 
 import unittest
 
