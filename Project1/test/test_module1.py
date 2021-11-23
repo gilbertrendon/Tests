@@ -1,9 +1,17 @@
 #from sample_module/sample_tests import add2num
 #from sample_module import sample_tests
-from sample_module.sample_module import add2num,pow2num
+from proj.sample_module import add2num,pow2num
 
 import unittest
+
+def setUpModule():
+    print('Executed before an test in the module')
+
+def tearDownModule():
+    print('Executed after all tests in module are run')
+    
 class Testadd2num(unittest.TestCase):
+    print('123412341234')
     @classmethod
     def test_setUpClass(cls):
         print('Executed before any test in the class runs.')
