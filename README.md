@@ -36,3 +36,7 @@ Luego surgen 2 postpruebas que son: Pruebas de aceptación(Validan el software q
 #ANOTHER TESTING MODULE IN PYTHON
 pip install nose
 
+#Para hacer pruebas con nose(Se debe tener en cuenta que en algunas versiones de python no funcionan algunas librerías, complementos, etc... Por ejm nosetest sirve en 3.10 pero no en 3.7.1 ó 3.7.9)
+python -m nose Project2/test/test_module1.py -v
+
+
